@@ -1,0 +1,16 @@
+projects:
+  vanamplifyapp:
+    schemaPath: src/graphql/schema.json
+    includes:
+      - src/graphql/**/*
+    excludes:
+      - ./amplify/**
+    extensions:
+      amplify:
+        codeGenTarget: javascript
+        generatedFileName: ''
+        docsFilePath: src/graphql
+        maxDepth: 2
+extensions:
+  amplify:
+    version: 3

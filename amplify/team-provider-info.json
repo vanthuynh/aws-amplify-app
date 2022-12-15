@@ -1,0 +1,23 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-vanamplifyapp-dev-212936-authRole",
+      "UnauthRoleArn": "arn:aws:iam::714696406777:role/amplify-vanamplifyapp-dev-212936-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::714696406777:role/amplify-vanamplifyapp-dev-212936-authRole",
+      "Region": "us-west-2",
+      "DeploymentBucketName": "amplify-vanamplifyapp-dev-212936-deployment",
+      "UnauthRoleName": "amplify-vanamplifyapp-dev-212936-unauthRole",
+      "StackName": "amplify-vanamplifyapp-dev-212936",
+      "StackId": "arn:aws:cloudformation:us-west-2:714696406777:stack/amplify-vanamplifyapp-dev-212936/78626d90-7c39-11ed-9724-02b9a91455b1",
+      "AmplifyAppId": "d133iztyz6wtq3"
+    },
+    "categories": {
+      "auth": {
+        "vanamplifyapp5c8ce703": {}
+      },
+      "api": {
+        "vanamplifyapp": {}
+      }
+    }
+  }
+}

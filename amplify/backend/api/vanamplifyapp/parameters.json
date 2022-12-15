@@ -1,0 +1,11 @@
+{
+  "AppSyncApiName": "vanamplifyapp",
+  "DynamoDBBillingMode": "PAY_PER_REQUEST",
+  "DynamoDBEnableServerSideEncryption": false,
+  "AuthCognitoUserPoolId": {
+    "Fn::GetAtt": [
+      "authvanamplifyapp5c8ce703",
+      "Outputs.UserPoolId"
+    ]
+  }
+}
